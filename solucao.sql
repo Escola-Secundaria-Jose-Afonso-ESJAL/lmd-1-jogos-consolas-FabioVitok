@@ -34,7 +34,7 @@ FROM games
 GROUP BY plataforma;
 
 -- 8. Calcular a soma total de cópias vendidas de todos os jogos
-SELECT SUM(copias_vendidas) FROM GAMES;
+SELECT SUM(copias_vendidas) FROM games;
 
 -- 9. Calcular o preço médio dos jogos por género, ordenado do mais caro para o mais barato
 SELECT genero, AVG(preco) AS avg_preco
